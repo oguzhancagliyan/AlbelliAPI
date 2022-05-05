@@ -1,0 +1,5 @@
+{"Timestamp":"2022-05-04T22:32:29.8174362+00:00","Level":"Information","MessageTemplate":"Now listening on: {address}","Properties":{"address":"https://[::]:443","EventId":{"Id":14,"Name":"ListeningOnAddress"},"SourceContext":"Microsoft.Hosting.Lifetime"}}
+{"Timestamp":"2022-05-04T22:32:29.8384744+00:00","Level":"Information","MessageTemplate":"Now listening on: {address}","Properties":{"address":"http://[::]:80","EventId":{"Id":14,"Name":"ListeningOnAddress"},"SourceContext":"Microsoft.Hosting.Lifetime"}}
+{"Timestamp":"2022-05-04T22:32:29.8445344+00:00","Level":"Information","MessageTemplate":"Application started. Press Ctrl+C to shut down.","Properties":{"SourceContext":"Microsoft.Hosting.Lifetime"}}
+{"Timestamp":"2022-05-04T22:32:29.8454244+00:00","Level":"Information","MessageTemplate":"Hosting environment: {envName}","Properties":{"envName":"Development","SourceContext":"Microsoft.Hosting.Lifetime"}}
+{"Timestamp":"2022-05-04T22:32:29.8455921+00:00","Level":"Information","MessageTemplate":"Content root path: {contentRoot}","Properties":{"contentRoot":"/app/","SourceContext":"Microsoft.Hosting.Lifetime"}}

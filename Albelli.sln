@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Albelli.API", "src\Albelli.API\Albelli.API.csproj", "{A5CC4AA7-AC04-46F3-8DA1-67D8763BEFDD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{92AF8F87-EDBC-4C9B-818B-5E331BFBBFCB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8CCAAA18-3D8F-4945-AD79-021BCD9FC43D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Albelli.Core", "src\Albelli.Core\Albelli.Core.csproj", "{FECD69C3-AB66-49CF-8995-C66649C418BC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlbelliAPI.UnitTest", "tests\AlbelliAPI.UnitTest\AlbelliAPI.UnitTest.csproj", "{3BA8C8BC-10FF-4F38-925B-AE78DCEBA70E}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{392937E2-D934-4D0D-9CE8-7B639546BBFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlbelliAPI.FunctionalTest", "tests\AlbelliAPI.FunctionalTest\AlbelliAPI.FunctionalTest.csproj", "{48403166-9C1A-4F41-B6E4-80E88B365FC7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5CC4AA7-AC04-46F3-8DA1-67D8763BEFDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5CC4AA7-AC04-46F3-8DA1-67D8763BEFDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5CC4AA7-AC04-46F3-8DA1-67D8763BEFDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5CC4AA7-AC04-46F3-8DA1-67D8763BEFDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FECD69C3-AB66-49CF-8995-C66649C418BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FECD69C3-AB66-49CF-8995-C66649C418BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FECD69C3-AB66-49CF-8995-C66649C418BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FECD69C3-AB66-49CF-8995-C66649C418BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BA8C8BC-10FF-4F38-925B-AE78DCEBA70E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BA8C8BC-10FF-4F38-925B-AE78DCEBA70E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BA8C8BC-10FF-4F38-925B-AE78DCEBA70E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BA8C8BC-10FF-4F38-925B-AE78DCEBA70E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{392937E2-D934-4D0D-9CE8-7B639546BBFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{392937E2-D934-4D0D-9CE8-7B639546BBFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{392937E2-D934-4D0D-9CE8-7B639546BBFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{392937E2-D934-4D0D-9CE8-7B639546BBFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48403166-9C1A-4F41-B6E4-80E88B365FC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48403166-9C1A-4F41-B6E4-80E88B365FC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48403166-9C1A-4F41-B6E4-80E88B365FC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48403166-9C1A-4F41-B6E4-80E88B365FC7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A5CC4AA7-AC04-46F3-8DA1-67D8763BEFDD} = {92AF8F87-EDBC-4C9B-818B-5E331BFBBFCB}
+		{FECD69C3-AB66-49CF-8995-C66649C418BC} = {92AF8F87-EDBC-4C9B-818B-5E331BFBBFCB}
+		{3BA8C8BC-10FF-4F38-925B-AE78DCEBA70E} = {8CCAAA18-3D8F-4945-AD79-021BCD9FC43D}
+		{48403166-9C1A-4F41-B6E4-80E88B365FC7} = {8CCAAA18-3D8F-4945-AD79-021BCD9FC43D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B0798FC7-A6FB-4859-A7E3-3901118F3239}
+	EndGlobalSection
+EndGlobal
